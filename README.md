@@ -1,24 +1,22 @@
-## JS Backend Task
+### JS Backend Task
 
 As we are looking for best coders to extends our capabilities at EuresiaCoders, our clients looking to build multitude of backend microservices.
 
-## Your task is to build a simple stateless microservice in Nodejs, with three major functionalities -
+### Your task is to build a simple stateless microservice in Nodejs, with three major functionalities -
 
     Authentication
     JSON patching
     Image Thumbnail Generation
 
-## We have no requirements for which frameworks/libraries to use, choose whichever seem best suited for the task!
+### We have no requirements for which frameworks/libraries to use, choose whichever seem best suited for the task!
 
-## Required Endpoints
-
-## The API should feature the following endpoint functionality -
-
-## Public Endpoints
+    Required Endpoints
+    The API should feature the following endpoint functionality -
+    Public Endpoints
 
     Login Request body should contain an arbitrary username/password pair Treat it as a mock authentication service and accept any username/password. Return a signed Json Web Token(JWT, https://jwt.io/) which can be used to validate future requests.
 
-## Protected Endpoints
+### Protected Endpoints
 
     The following two endpoints should be protected. The JWT obtained in the “Login” endpoint must be attached to each request. If the JWT is missing or invalid, these endpoints should reject the request.
 
@@ -26,16 +24,16 @@ As we are looking for best coders to extends our capabilities at EuresiaCoders, 
 
     Create Thumbnail Request should contain a public image URL. Download the image, resize to 50x50 pixels, and return the resulting thumbnail.
 
-## General Requirements
+### General Requirements
 
-## Code Requirements
+### Code Requirements
 
     Include a test suite for the microservice.
     We recommend using Mocha (https://mochajs.org/).
     API should reject invalid request inputs. Test the edge cases!
     Use modern javascript ES6 syntax.
 
-## Other Requirements
+### Other Requirements
 
     Use Git for version control, and host the project in a Github repository.
     Project should contain documentation with setup and usage instructions.
@@ -47,7 +45,7 @@ As we are looking for best coders to extends our capabilities at EuresiaCoders, 
     Include a working Dockerfile with the app directory.
     Push a docker image to public DockerHub, and share the link
 
-## Bonus Points
+### Bonus Points
 
     100% code coverage in test suite.
     We recommend using Istanbul (https://github.com/gotwarlost/istanbul) to generate code test coverage reports.
@@ -56,7 +54,7 @@ As we are looking for best coders to extends our capabilities at EuresiaCoders, 
     Logging / Monitoring
     Integrate a centralized app logging/monitoring system.
 
-## How we will judge the task
+### How we will judge the task
 
     Project organization and code readability (40%)
     API functionality correctness (15%)
@@ -66,6 +64,6 @@ As we are looking for best coders to extends our capabilities at EuresiaCoders, 
     Unit Test Coverage (10%)
     Bonus Points (up to +20%)
 
-## Important
+### Important
 
-## Please DO NOT fork this repo. Instead send the GitHub link to someone who interviewed you to take the interview forward.
+#### Please DO NOT fork this repo. Instead send the GitHub link to someone who interviewed you to take the interview forward.
